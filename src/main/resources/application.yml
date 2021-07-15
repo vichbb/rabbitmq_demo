@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+logging:
+  config: logback.xml
+  level:
+    com.hkm.rabbitmq_demo: trace
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: test1
+    password: test1
+    connection-timeout: 15000
+    virtual-host: ems
